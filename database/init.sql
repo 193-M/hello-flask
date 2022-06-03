@@ -8,4 +8,4 @@ CREATE TABLE item (
 	updatedAt DATETIME
 );
 
-INSERT INTO item (title, description, userID, createdAt, updatedAt) VALUE ('sample', 'This is sample item.', '1111', now(), now());
+INSERT INTO item (title, description, userID, createdAt, updatedAt) VALUE ('sample', 'This is sample item.', 1111, now(), now());
